@@ -48,6 +48,7 @@ const TNodeRenderer = memo(function MemoizedTNodeRenderer(
   const sharedProps = useSharedProps();
   const renderRegistry = useRendererRegistry();
   const TNodeChildrenRenderer = useTNodeChildrenRenderer();
+
   const tnodeProps = {
     ...props,
     TNodeChildrenRenderer,

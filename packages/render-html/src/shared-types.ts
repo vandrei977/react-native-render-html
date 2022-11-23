@@ -457,6 +457,7 @@ export interface RenderHTMLSharedProps {
    * @defaultValue false
    */
   enableExperimentalMarginCollapsing?: boolean;
+  handleSelection?: (content: any) => void;
 
   /**
    * Color used for pressable items, either for the ripple effect (Android), or

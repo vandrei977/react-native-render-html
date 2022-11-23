@@ -1,7 +1,6 @@
 {
-  "name": "react-native-render-html",
-  "version": "6.3.4",
-  "author": "Meliorence <contact@meliorence.com> (github.com/meliorence)",
+  "name": "@vandrei977/react-native-render-html",
+  "version": "6.3.40",
   "license": "BSD-2-Clause",
   "description": "The hackable, full-featured Open Source HTML rendering solution for React Native.",
   "main": "lib/commonjs/index.js",
@@ -12,9 +11,8 @@
     "src",
     "react-native-render-html.podspec"
   ],
-  "homepage": "https://meliorence.github.io/react-native-render-html/",
   "bugs": {
-    "url": "https://github.com/meliorence/react-native-render-html/issues"
+    "url": "https://github.com/vandrei977/react-native-render-html/issues"
   },
   "keywords": [
     "react-native",
@@ -25,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/meliorence/react-native-render-html.git",
+    "url": "https://github.com/vandrei977/react-native-render-html.git",
     "directory": "packages/render-html"
   },
   "scripts": {
@@ -35,7 +33,7 @@
     "test:lint": "eslint --ext ts,tsx src/",
     "build": "bob build",
     "build:defs": "api-extractor run --local --verbose",
-    "prepack": "yarn run prepack:readme && yarn run build",
+    "prepack": "yarn run build",
     "prepack:readme": "./scripts/prepack.sh"
   },
   "devDependencies": {
@@ -53,6 +51,7 @@
     "@types/jest": "^26.0.23",
     "@types/react-native": "^0.64.4",
     "@types/react-test-renderer": "^17.0.1",
+    "@types/uuid": "^8.3.4",
     "babel-jest": "^27.0.2",
     "eslint": "^7.29.0",
     "htmlparser2": "^7.1.2",
@@ -94,6 +93,7 @@
     "@native-html/transient-render-engine": "11.2.3",
     "@types/ramda": "^0.27.40",
     "@types/urijs": "^1.19.15",
+    "@vandrei977/react-native-selectable-text": "1.6.20",
     "prop-types": "^15.5.7",
     "ramda": "^0.27.2",
     "stringify-entities": "^3.1.0",

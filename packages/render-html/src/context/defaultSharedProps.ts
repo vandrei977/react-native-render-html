@@ -25,6 +25,9 @@ const defaultSharedProps: RenderHTMLAmbiantSharedProps = {
   enableExperimentalMarginCollapsing: false,
   computeEmbeddedMaxWidth: (contentWidth) => contentWidth,
   WebView: WebViewPlaceholder,
+  handleSelection: (content: any) => {
+    console.log('Default handle selection', content);
+  },
   defaultWebViewProps: {},
   pressableHightlightColor: DEFAULT_PRESSABLE_RIPPLE_COLOR,
   provideEmbeddedHeaders: undefined,

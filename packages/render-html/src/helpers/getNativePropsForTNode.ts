@@ -47,6 +47,7 @@ export default function getNativePropsForTNode<
     textProps,
     TNodeChildrenRenderer
   } = props;
+
   const children =
     overridenChildren ||
     (tnode.type === 'text'
@@ -68,6 +69,7 @@ export default function getNativePropsForTNode<
     ...passedNativeProps,
     ...switchProp,
     children,
+
     onPress: syntheticOnPress,
     style: [style, passedNativeProps?.style, switchProp.style],
     testID: switchProp.testID || tnode.tagName || undefined

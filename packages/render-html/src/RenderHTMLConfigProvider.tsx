@@ -31,6 +31,7 @@ export const renderHTMLConfigPropTypes: RenderHTMLConfigPropTypes = {
   enableExperimentalMarginCollapsing: PropTypes.bool,
   remoteErrorView: PropTypes.func,
   remoteLoadingView: PropTypes.func,
+  handleSelection: PropTypes.func,
   debug: PropTypes.bool,
   computeEmbeddedMaxWidth: PropTypes.func,
   renderersProps: PropTypes.object,
@@ -67,6 +68,7 @@ export default function RenderHTMLConfigProvider(
       remoteLoadingView: remoteLoadingView || defaultRenderLoading
     };
   }, [remoteErrorView, remoteLoadingView, profile]);
+  console.log('sharedProps', sharedProps.handleSelection);
   return (
     <RenderRegistryProvider
       renderers={renderers}
