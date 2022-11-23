@@ -68,7 +68,6 @@ export default function RenderHTMLConfigProvider(
       remoteLoadingView: remoteLoadingView || defaultRenderLoading
     };
   }, [remoteErrorView, remoteLoadingView, profile]);
-  console.log('sharedProps', sharedProps.handleSelection);
   return (
     <RenderRegistryProvider
       renderers={renderers}
