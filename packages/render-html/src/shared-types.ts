@@ -458,6 +458,8 @@ export interface RenderHTMLSharedProps {
    */
   enableExperimentalMarginCollapsing?: boolean;
   handleSelection?: (content: any) => void;
+  handleWordTap?: (word: any) => void;
+  shouldHandleTap?: boolean;
 
   /**
    * Color used for pressable items, either for the ripple effect (Android), or
@@ -465,6 +467,7 @@ export interface RenderHTMLSharedProps {
    *
    * @defaultValue rgba(38, 132, 240, 0.2)
    */
+  // eslint-disable-next-line @typescript-eslint/member-ordering
   pressableHightlightColor?: string;
 
   /**

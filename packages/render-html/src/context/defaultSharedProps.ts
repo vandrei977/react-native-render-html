@@ -28,6 +28,10 @@ const defaultSharedProps: RenderHTMLAmbiantSharedProps = {
   handleSelection: (content: any) => {
     console.log('Default handle selection', content);
   },
+  handleWordTap: (word: any) => {
+    // console.log('Default word tap', word);
+  },
+  shouldHandleTap: false,
   defaultWebViewProps: {},
   pressableHightlightColor: DEFAULT_PRESSABLE_RIPPLE_COLOR,
   provideEmbeddedHeaders: undefined,

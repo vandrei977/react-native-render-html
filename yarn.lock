@@ -3630,7 +3630,7 @@ __metadata:
     "@types/react-test-renderer": ^17.0.1
     "@types/urijs": ^1.19.15
     "@types/uuid": ^8.3.4
-    "@vandrei977/react-native-selectable-text": 1.6.20
+    "@vandrei977/react-native-selectable-text": 1.6.23
     babel-jest: ^27.0.2
     eslint: ^7.29.0
     htmlparser2: ^7.1.2
@@ -3655,13 +3655,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vandrei977/react-native-selectable-text@npm:1.6.20":
-  version: 1.6.20
-  resolution: "@vandrei977/react-native-selectable-text@npm:1.6.20"
+"@vandrei977/react-native-selectable-text@npm:1.6.23":
+  version: 1.6.23
+  resolution: "@vandrei977/react-native-selectable-text@npm:1.6.23"
   dependencies:
     fast-memoize: ^2.5.1
     uuid: ^3.3.2
-  checksum: 1897eb6cc3bf65a1333368d9b7e5f698f621fc5207e202fa91bcf9e7c75b42b5ca8ccf7e47d796196319f9194782f8fb1221f26147720dccd7ab56a153dbca7a
+  checksum: 95ddf65e98c9201da41969ee782da3d831589db28e2eee10b2b6d4144c0f9cdc6fcc2ac3a155c6be5edbebbc03d4590dd808ccdf02f65c92be6f062e80876b5e
   languageName: node
   linkType: hard
 

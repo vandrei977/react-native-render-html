@@ -32,6 +32,8 @@ export const renderHTMLConfigPropTypes: RenderHTMLConfigPropTypes = {
   remoteErrorView: PropTypes.func,
   remoteLoadingView: PropTypes.func,
   handleSelection: PropTypes.func,
+  handleWordTap: PropTypes.func,
+  shouldHandleTap: PropTypes.bool,
   debug: PropTypes.bool,
   computeEmbeddedMaxWidth: PropTypes.func,
   renderersProps: PropTypes.object,
