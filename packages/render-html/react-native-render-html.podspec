@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.summary      = package['description']
   s.license      = package['license']
 
-  s.authors      = "Andrei Valeanu, Meliorence"
+  s.authors      = "me"
   s.homepage     = "https://github.com/vandrei977/react-native-render-html.git"
   s.platform     = :ios, "9.0"
 

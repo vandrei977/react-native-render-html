@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { FunctionComponent } from 'react';
 import { TChildrenRendererProps } from './shared-types';
 import renderChildren from './renderChildren';

@@ -1,6 +1,6 @@
 {
   "name": "@vandrei977/react-native-render-html",
-  "version": "6.3.86",
+  "version": "6.3.105",
   "license": "BSD-2-Clause",
   "description": "The hackable, full-featured Open Source HTML rendering solution for React Native.",
   "main": "lib/commonjs/index.js",
@@ -61,11 +61,11 @@
     "react": "17.0.2",
     "react-native": "^0.64.0",
     "react-native-accessibility-engine": "^0.4.1",
-    "react-native-builder-bob": "^0.18.1",
+    "react-native-builder-bob": "^0.37.0",
     "react-performance-testing": "^1.2.3",
     "react-test-renderer": "^17.0.2",
     "release-it": "14.11.0-next.1",
-    "typescript": "4.2.2"
+    "typescript": "^5.8.2"
   },
   "peerDependencies": {
     "react": "*",
@@ -93,7 +93,6 @@
     "@native-html/transient-render-engine": "11.2.3",
     "@types/ramda": "^0.27.40",
     "@types/urijs": "^1.19.15",
-    "@vandrei977/react-native-selectable-text": "1.6.32",
     "prop-types": "^15.5.7",
     "ramda": "^0.27.2",
     "stringify-entities": "^3.1.0",

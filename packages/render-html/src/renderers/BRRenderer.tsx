@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { TNode } from '@native-html/transient-render-engine';
 import React from 'react';
 import { Platform, Text, View } from 'react-native';

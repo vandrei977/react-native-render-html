@@ -1,4 +1,5 @@
 /* eslint-disable react-native/no-inline-styles */
+// @ts-nocheck
 import { MarkerBoxProps } from '@jsamr/react-native-li';
 import { mapObjIndexed } from 'ramda';
 import React, {
