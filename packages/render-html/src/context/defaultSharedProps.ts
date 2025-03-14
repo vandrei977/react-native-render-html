@@ -28,7 +28,7 @@ const defaultSharedProps: RenderHTMLAmbiantSharedProps = {
   handleSelection: (content: any) => {
     console.log('Default handle selection', content);
   },
-  handleWordTap: (word: any) => {
+  handleWordTap: (searchkey: string, word: string) => {
     // console.log('Default word tap', word);
   },
   shouldHandleTap: false,

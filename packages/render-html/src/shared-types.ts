@@ -458,7 +458,7 @@ export interface RenderHTMLSharedProps {
    */
   enableExperimentalMarginCollapsing?: boolean;
   handleSelection?: (content: any) => void;
-  handleWordTap?: (word: any) => void;
+  handleWordTap?: (searchkey: string, word: string) => void;
   shouldHandleTap?: boolean;
 
   /**
